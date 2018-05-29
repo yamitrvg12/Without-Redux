@@ -1,0 +1,6 @@
+<span class="item">{{detailList?.totalItems}}</span>
+<p>{{detailList?.lastUpdateItem | date:'MMM d, y, h:mm:ss a'}}</p>
+<button 
+  mat-button 
+  [disabled]="detailList?.totalItems === 0"
+  (click)="onRemoveAll()" >Remove All Items</button>

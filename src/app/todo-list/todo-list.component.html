@@ -1,0 +1,26 @@
+<h2>Todo List</h2>
+<form 
+  #f="ngForm" 
+  (ngSubmit)="onSubmit(f)"
+  class="example-form">
+  <mat-form-field class="example-full-width">
+    <input 
+      matInput
+      ngModel
+      required
+      #addItem="ngModel"
+      name="addItem"
+      placeholder="Add Item">
+    <mat-error *ngIf="addItem.hasError('required')">
+      Add Item is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+  <div>
+    <button 
+      mat-raised-button 
+      class="btn"
+      [disabled]="!f.valid">
+      Add Item
+    </button>
+  </div>
+</form>

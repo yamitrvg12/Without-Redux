@@ -1,0 +1,19 @@
+<div class="call-outs-container">
+  <mat-card>
+    <app-todo-list 
+      class="call-out-form"
+      (changes)="onChangeList($event)">
+    </app-todo-list>
+    <app-dashboard 
+      (removeAllItems)="onRemoveAll($event)"
+      class="call-out-list" 
+      [detailList]="details" >
+    </app-dashboard>
+    <app-list 
+      (itemToRemove)="onDeleteItem($event)"
+      (dateSelected)="onChangeDate($event)"
+      class="call-out-display-items"
+      [allItems]="todoList">
+    </app-list>
+  </mat-card>
+</div>

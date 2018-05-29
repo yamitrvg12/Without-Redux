@@ -1,0 +1,13 @@
+h2 {
+    font-weight: 100;
+    text-align: center;
+}
+.mat-form-field {
+    display: block;
+}
+.btn {
+    background-color: #42a5f8;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+}

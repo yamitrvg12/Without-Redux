@@ -1,0 +1,17 @@
+
+.item {
+    height: 27px;
+    width: 27px;
+    background-color: #42a3fe;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    line-height: 2.2;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: -14px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -10px;
+}

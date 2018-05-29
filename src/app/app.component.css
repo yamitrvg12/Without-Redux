@@ -1,0 +1,30 @@
+.call-outs-container {
+    max-width: 490px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.call-out-form {
+    padding: 0 80px;
+    display: block;
+}
+.call-out-list {
+    display: block;
+    background: #42a1ff;
+    margin-top: 60px;
+    text-align: center;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font-size: 11px;
+    color: #fff;
+}
+.call-out-display-items {
+    background: #42a1ff;
+    color: #fff;
+    display: block;
+    padding: 0 30px 20px;
+}
+.mat-card {
+    padding: 24px 0 0;
+}

@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+html, body {
+    height:100%;
+    margin: 0;
+}
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5361bc+0,318ea5+100 */
+    background: rgba(83,97,188,1);
+    background: -moz-linear-gradient(-45deg, rgba(83,97,188,1) 0%, rgba(49,142,165,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(83,97,188,1)), color-stop(100%, rgba(49,142,165,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(83,97,188,1) 0%, rgba(49,142,165,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(83,97,188,1) 0%, rgba(49,142,165,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(83,97,188,1) 0%, rgba(49,142,165,1) 100%);
+    background: linear-gradient(135deg, rgba(83,97,188,1) 0%, rgba(49,142,165,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5361bc', endColorstr='#318ea5', GradientType=1 );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
