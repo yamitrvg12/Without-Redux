@@ -1,4 +1,4 @@
-# ReduxExercise
+# Wothout Redux Exercise
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
 
